@@ -7329,6 +7329,10 @@ input[type=number] {
   color: #f5d87d !important;
 }
 
+div#menu-install-pwa-ios, div#menu-install-pwa-android {
+    background: #fff;
+}
+
 
 
 
