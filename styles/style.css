@@ -1,5 +1,11 @@
 @charset "UTF-8";
 /*Typography Settings*/
+@font-face {
+  font-family: drukBold;
+  src: url(/fonts/webfonts/druk-bold.otf);
+}
+
+
 body {
   font-size: 13px;
   font-family: "Roboto", sans-serif !important;
@@ -51,6 +57,15 @@ p {
   margin-bottom: 30px;
   padding-bottom: 0px;
 }
+
+.fyf-font {
+  font-family: "drukBold" !important;
+  color: #fff;
+  font-size: 50px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+
 
 /*Page Stucture Settings*/
 body {
@@ -1461,8 +1476,8 @@ body {
 }
 
 .header {
-  height: calc(50px + (constant(safe-area-inset-top))*0.8) !important;
-  height: calc(50px + (env(safe-area-inset-top))*0.8) !important;
+  height: calc(70px + (constant(safe-area-inset-top))*0.8) !important;
+  height: calc(70px + (env(safe-area-inset-top))*0.8) !important;
 }
 
 .header-icon {
@@ -3465,7 +3480,7 @@ button {
   margin: 0px 15px 30px 15px;
   border-radius: 20px;
   border: none;
-  box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.1); */
 }
 .card-style .card-body {
   padding: 15px;
@@ -6911,7 +6926,7 @@ input[type=number] {
 }
 
 .bg-29 {
-  background-image: url(../images/pictures/29.jpg);
+  background-image: url(../images/home-hero.png);
 }
 
 .bg-30 {
@@ -7284,7 +7299,7 @@ input[type=number] {
 
 .header.header-fixed.header-logo-center {
     background-image: linear-gradient(45deg,#2a669d,#3787b4,#46afd0,#52cfe6);
-    height: 70px !important;
+    /* height: 70px !important; */
     padding-top: 10px;
     color: #fff;
 }
