@@ -7334,6 +7334,46 @@ div#menu-install-pwa-ios, div#menu-install-pwa-android {
 }
 
 
+/* NEW STYLES 09.22.2021 */
+
+.hero-image {
+    padding: .5% 2%;
+}
+
+.home-nav-sqre, .home-nav-rect {
+    font-family: 'proxima-nova';
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%;
+    padding: 1%;
+}
+
+.home-nav-sqre a, .home-nav-rect a {
+    color: #fff;
+    font-family: 'proxima-nova', 'lato';
+    background: #20639b;
+    width: 48%;
+    text-align: center;
+    padding: 38px 0;
+    margin: 1%;
+}
+
+.home-nav-rect a {
+    width: 100%;
+    padding: 25px;
+    background: #163f5f;
+}
+
+
+.home-nav-rect {
+  margin-top: -2%;
+}
+
 
 
 
