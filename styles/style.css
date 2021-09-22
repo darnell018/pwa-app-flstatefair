@@ -1531,8 +1531,8 @@ body {
 }
 
 .page-title-clear {
-  height: calc(90px + (constant(safe-area-inset-top))*0.8) !important;
-  height: calc(90px + (env(safe-area-inset-top))*0.8) !important;
+  height: calc(75px + (constant(safe-area-inset-top))*0.8) !important;
+  height: calc(75px + (env(safe-area-inset-top))*0.8) !important;
 }
 
 .page-title-icon {
@@ -7359,7 +7359,7 @@ div#menu-install-pwa-ios, div#menu-install-pwa-android {
     background: #20639b;
     width: 48%;
     text-align: center;
-    padding: 38px 0;
+    padding: 35px 0;
     margin: 1%;
 }
 
