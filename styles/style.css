@@ -8,8 +8,8 @@
 
 body {
   font-size: 13px;
-  font-family: "Roboto", sans-serif !important;
-  line-height: 24px !important;
+  font-family: "Proxima Nova", sans-serif !important;
+  /* line-height: 24px !important; */
   color: #727272 !important;
   background-color: #eef2f1;
 }
@@ -17,15 +17,15 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   color: #1f1f1f;
-  font-family: "Inter", sans-serif !important;
+  font-family: "Proxima Nova", sans-serif !important;
   margin-bottom: 5px;
-  letter-spacing: -0.8px;
 }
 
 h1 {
   font-size: 24px;
   line-height: 30px;
   padding-bottom: 5px;
+  text-transform: uppercase;
 }
 
 h2 {
@@ -6503,6 +6503,14 @@ input[type=number] {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.1) 30%, rgba(0, 0, 0, 0.8) 70%, black 100%) !important;
 }
 
+.bg-gradient-blue {
+  background: linear-gradient(to bottom, rgba(32, 99, 155, 0) 0%, rgba(32, 99, 155, 0) 20%, rgba(32, 99, 155, 0.1) 30%, rgba(32, 99, 155, 0.8) 70%, #20639b 100%) !important;
+}
+
+.bg-gradient-navy {
+  background: linear-gradient(to bottom, rgba(22, 63, 95, 0) 0%, rgba(22, 63, 95, 0) 20%, rgba(22, 63, 95, 0.1) 30%, rgba(22, 63, 95, 0.8) 70%, #163f5f 100%) !important;
+}
+
 .bg-gradient-fade {
   bottom: 0px !important;
 }
@@ -6834,7 +6842,7 @@ input[type=number] {
 }
 
 .bg-6 {
-  background-image: url(../images/pictures/6.jpg);
+  background-image: url(../images/pictures/ent-bello.png);
 }
 
 .bg-7 {
@@ -6874,7 +6882,7 @@ input[type=number] {
 }
 
 .bg-16 {
-  background-image: url(../images/pictures/16.jpg);
+  background-image: url(../images/pictures/ent-ripley.png);
 }
 
 .bg-17 {
@@ -6886,7 +6894,7 @@ input[type=number] {
 }
 
 .bg-19 {
-  background-image: url(../images/pictures/19.jpg);
+  background-image: url(../images/pictures/ent-grove.png);
 }
 
 .bg-20 {
@@ -6934,7 +6942,7 @@ input[type=number] {
 }
 
 .bg-31 {
-  background-image: url(../images/pictures/31.jpg);
+  background-image: url(../images/pictures/ent-bigair.png);
 }
 
 .bg-32 {
@@ -6942,11 +6950,15 @@ input[type=number] {
 }
 
 .bg-33 {
-  background-image: url(../images/pictures/33.jpg);
+  background-image: url(../images/pictures/ent-arts.png);
 }
 
 .bg-34 {
   background-image: url(../images/pictures/34.jpg);
+}
+
+.bg-35 {
+  background-image: url(../images/pictures/ent-circus.png);
 }
 
 /*Demo Colors*/
