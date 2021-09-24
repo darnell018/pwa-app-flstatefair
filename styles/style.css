@@ -1531,8 +1531,8 @@ body {
 }
 
 .page-title-clear {
-  height: calc(90px + (constant(safe-area-inset-top))*0.8) !important;
-  height: calc(90px + (env(safe-area-inset-top))*0.8) !important;
+  height: calc(75px + (constant(safe-area-inset-top))*0.8) !important;
+  height: calc(75px + (env(safe-area-inset-top))*0.8) !important;
 }
 
 .page-title-icon {
@@ -7345,6 +7345,46 @@ div#menu-install-pwa-ios, div#menu-install-pwa-android {
     background: #fff;
 }
 
+
+/* NEW STYLES 09.22.2021 */
+
+.hero-image {
+    padding: .5% 2%;
+}
+
+.home-nav-sqre, .home-nav-rect {
+    font-family: 'proxima-nova';
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%;
+    padding: 1%;
+}
+
+.home-nav-sqre a, .home-nav-rect a {
+    color: #fff;
+    font-family: 'proxima-nova', 'lato';
+    background: #20639b;
+    width: 48%;
+    text-align: center;
+    padding: 35px 0;
+    margin: 1%;
+}
+
+.home-nav-rect a {
+    width: 100%;
+    padding: 25px;
+    background: #163f5f;
+}
+
+
+.home-nav-rect {
+  margin-top: -2%;
+}
 
 
 
