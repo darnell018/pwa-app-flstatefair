@@ -7376,13 +7376,13 @@ div#menu-install-pwa-ios, div#menu-install-pwa-android {
     background: #20639b;
     width: 48%;
     text-align: center;
-    padding: 3.5vh 0;
+    padding: 4.25vh 0;
     margin: 1%;
 }
 
 .home-nav-rect a {
     width: 100%;
-    padding: 25px;
+    padding: 2.5vh;
     background: #163f5f;
 }
 

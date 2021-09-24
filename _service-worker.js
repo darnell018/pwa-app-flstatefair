@@ -1,10 +1,15 @@
-/*
+
 // Cache name
 var CACHE_NAME = 'Appkit-Cache-V10';
 
 // Files required to make this app work offline
 var REQUIRED_FILES = [
-    'index.html'
+    'index.html',
+    'schedule.html',
+    'food-finder.html',
+    'agriculture.html',
+    'exhibits.html',
+    'midway.html'
 ];
 
 self.addEventListener('install', function(event) {
@@ -41,4 +46,4 @@ self.addEventListener('activate', function(event) {
   // Calling claim() to force a "controllerchange" event on navigator.serviceWorker
   event.waitUntil(self.clients.claim());
 });
-*/
+
