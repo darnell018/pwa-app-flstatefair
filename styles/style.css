@@ -1176,7 +1176,7 @@ body {
 .footer-bar-1 .active-nav i,
 .footer-bar-1 .active-nav span,
 .footer-bar-3 .active-nav i {
-  color: #4A89DC !important;
+  color: #ffffff !important;
 }
 
 .footer-bar-6 .circle-nav strong, .footer-bar-6 .active-nav em {
@@ -7325,7 +7325,12 @@ input[type=number] {
 }
 
 #footer-bar {
-    background: #163f5f;
+    background-image: linear-gradient(
+45deg,#2a669d,#3787b4,#46afd0,#52cfe6);
+}
+
+#footer-bar a span {
+  color: #fff;
 }
 
 #footer-bar a i, .footer-bar-6 span {
@@ -7371,7 +7376,7 @@ div#menu-install-pwa-ios, div#menu-install-pwa-android {
     background: #20639b;
     width: 48%;
     text-align: center;
-    padding: 35px 0;
+    padding: 3.5vh 0;
     margin: 1%;
 }
 
