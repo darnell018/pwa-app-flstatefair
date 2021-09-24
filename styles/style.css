@@ -8,7 +8,7 @@
 
 body {
   font-size: 13px;
-  font-family: "Proxima Nova", sans-serif !important;
+  font-family: 'Proxima Nova', sans-serif !important;
   /* line-height: 24px !important; */
   color: #727272 !important;
   background-color: #eef2f1;
@@ -17,7 +17,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   color: #1f1f1f;
-  font-family: "Proxima Nova", sans-serif !important;
+  font-family: 'Proxima Nova', sans-serif !important;
   margin-bottom: 5px;
 }
 
@@ -177,24 +177,24 @@ body {
   color: #FFF !important;
 }
 
-.bg-fade-highlight-dark {
+/* .bg-fade-highlight-dark {
   background-color: !important;
   color: #FFF !important;
-}
+} */
 
-.bg-fade-highlight-light {
+/* .bg-fade-highlight-light {
   background-color: !important;
   color: #FFF !important;
-}
+} */
 
 .color-highlight-dark {
   color: #4A89DC !important;
 }
 
-.color-icon-highlight {
+/* .color-icon-highlight {
   stroke: #4A89DC !important;
   fill: !important;
-}
+} */
 
 .bg-highlight-dark {
   background-color: #4A89DC !important;

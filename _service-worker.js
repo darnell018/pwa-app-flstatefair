@@ -1,6 +1,6 @@
 
 // Cache name
-var CACHE_NAME = 'Appkit-Cache-V10';
+var CACHE_NAME = 'FlStateFair-10';
 
 // Files required to make this app work offline
 var REQUIRED_FILES = [
